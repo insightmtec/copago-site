@@ -2,88 +2,141 @@
 
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CopaGo - Álbum da Copa</title>
 
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #0f172a, #1e293b);
-      color: #ffffff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      text-align: center;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f172a;
+      color: #fff;
     }
 
-    .container {
-      max-width: 400px;
-      padding: 20px;
+    header {
+      padding: 40px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
     }
 
     .logo {
-      font-size: 32px;
-      font-weight: bold;
-      margin-bottom: 10px;
+      width: 120px;
+      border-radius: 50%;
+      margin-bottom: 20px;
     }
 
-    .subtitle {
-      font-size: 16px;
+    h1 {
+      font-size: 36px;
+      margin: 10px 0;
+    }
+
+    p {
       color: #cbd5f5;
-      margin-bottom: 30px;
+      font-size: 16px;
     }
 
-    .card {
-      background: rgba(255, 255, 255, 0.05);
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 20px;
+      background: #22c55e;
+      color: #000;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .features {
+      display: grid;
+      gap: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .feature {
+      background: #1e293b;
       padding: 20px;
       border-radius: 16px;
-      margin-bottom: 20px;
-      backdrop-filter: blur(10px);
     }
 
-    a {
-      display: block;
-      text-decoration: none;
-      color: white;
-      background: #22c55e;
-      padding: 12px;
-      border-radius: 10px;
-      font-weight: bold;
-      margin-top: 10px;
+    .screens {
+      display: flex;
+      overflow-x: auto;
+      gap: 20px;
+      padding: 20px;
     }
 
-    a.secondary {
-      background: transparent;
-      border: 1px solid #22c55e;
+    .screens img {
+      height: 500px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     }
 
     footer {
-      margin-top: 20px;
-      font-size: 12px;
+      padding: 30px;
+      text-align: center;
       color: #94a3b8;
     }
   </style>
 
 </head>
+
 <body>
-  <div class="container">
-    <div class="logo">Copa Go!</div>
-    <div class="subtitle">Seu álbum digital da Copa do Mundo</div>
 
-<div class="card">
-  <p>Organize suas figurinhas, acompanhe estatísticas e troque com amigos.</p>
+<header>
+  <img src="logo.png" class="logo">
+  <h1>Copa Go!</h1>
+  <p>Seu álbum digital da Copa do Mundo</p>
+  <a href="https://play.google.com/store/apps/details?id=com.insigth.copago" class="btn">Baixar na Play Store</a>
+</header>
 
-  <a href="https://play.google.com/store/apps/details?id=com.insigth.copago">Baixar na Play Store</a>
-  <a href="mailto:insightmtec@gmail.com" class="secondary">Entrar em contato</a>
+<section>
+  <h2>📱 Funcionalidades</h2>
+
+  <div class="features">
+    <div class="feature">
+      <h3>📊 Controle total</h3>
+      <p>Gerencie figurinhas repetidas e faltantes com facilidade.</p>
+    </div>
+
+```
+<div class="feature">
+  <h3>🤝 Trocas inteligentes</h3>
+  <p>Use QR Code para trocar figurinhas com amigos rapidamente.</p>
 </div>
 
-<footer>
-  © 2026 Copa Go!
-</footer>
+<div class="feature">
+  <h3>📈 Estatísticas</h3>
+  <p>Acompanhe o progresso do seu álbum em tempo real.</p>
+</div>
+```
 
   </div>
+</section>
+
+<section>
+  <div class="screens">
+    <img src="tela-1.jpg">
+    <img src="tela-2.jpg">
+    <img src="tela-3.jpg">
+  </div>
+</section>
+
+<section>
+  <h2>🚀 Comece agora</h2>
+  <p>Baixe o CopaGo e complete seu álbum mais rápido!</p>
+  <a href="#" class="btn">Baixar na Play Store</a>
+</section>
+
+<footer>
+  © 2026 CopaGo
+</footer>
+
 </body>
 </html>
