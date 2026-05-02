@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CopaGo - Álbum da Copa</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 400px;
+      padding: 20px;
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: #cbd5f5;
+      margin-bottom: 30px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 16px;
+      margin-bottom: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      background: #22c55e;
+      padding: 12px;
+      border-radius: 10px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    a.secondary {
+      background: transparent;
+      border: 1px solid #22c55e;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #94a3b8;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <div class="logo">Copa Go!</div>
+    <div class="subtitle">Seu álbum digital da Copa do Mundo</div>
+
+```
+<div class="card">
+  <p>Organize suas figurinhas, acompanhe estatísticas e troque com amigos.</p>
+
+  <a href="https://play.google.com/store/apps/details?id=com.insigth.copago">Baixar na Play Store</a>
+  <a href="mailto:seuemail@email.com" class="secondary">Entrar em contato</a>
+</div>
+
+<footer>
+  © 2026 Copa Go!
+</footer>
+```
+
+  </div>
+</body>
+</html>
